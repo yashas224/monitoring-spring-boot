@@ -1,0 +1,10 @@
+https://raul8804.wordpress.com/2019/03/31/spring-boot-project-db-connection-leak-investigation/
+https://stackoverflow.com/questions/30549489/what-is-this-spring-jpa-open-in-view-true-property-in-spring-boot
+https://www.baeldung.com/spring-open-session-in-view
+https://www.baeldung.com/spring-boot-hikari
+https://github.com/brettwooldridge/HikariCP#gear-configuration-knobs-baby
+https://stackoverflow.com/questions/23850585/how-to-start-spring-boot-app-without-depending-on-database
+https://cljdoc.org/d/hikari-cp/hikari-cp/2.14.0/doc/readme
+https://stackoverflow.com/questions/23325413/what-runtimeexception-can-spring-crudrepository-throw
+https://stackoverflow.com/questions/68454461/initializationfailtimeout-property-in-hikaricp
+https://github.com/brettwooldridge/HikariCP/issues/1641
