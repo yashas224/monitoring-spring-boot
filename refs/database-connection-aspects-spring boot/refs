@@ -9,3 +9,5 @@ https://stackoverflow.com/questions/23325413/what-runtimeexception-can-spring-cr
 https://stackoverflow.com/questions/68454461/initializationfailtimeout-property-in-hikaricp
 https://github.com/brettwooldridge/HikariCP/issues/1641
 https://springframework.guru/hikari-configuration-for-mysql-in-spring-boot-2/
+//slow queries
+http://www.masterspringboot.com/data-access/jpa-applications/how-to-find-slow-queries-in-spring-boot/
