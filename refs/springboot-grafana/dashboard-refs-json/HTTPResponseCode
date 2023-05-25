@@ -1,0 +1,100 @@
+{
+  "id": 2,
+  "gridPos": {
+    "h": 8,
+    "w": 8,
+    "x": 16,
+    "y": 0
+  },
+  "type": "timeseries",
+  "title": "HTTP response code - Authenticate API",
+  "datasource": {
+    "type": "datasource",
+    "uid": "-- Mixed --"
+  },
+  "fieldConfig": {
+    "defaults": {
+      "custom": {
+        "drawStyle": "line",
+        "lineInterpolation": "linear",
+        "barAlignment": 0,
+        "lineWidth": 1,
+        "fillOpacity": 0,
+        "gradientMode": "none",
+        "spanNulls": false,
+        "showPoints": "auto",
+        "pointSize": 5,
+        "stacking": {
+          "mode": "none",
+          "group": "A"
+        },
+        "axisPlacement": "auto",
+        "axisLabel": "",
+        "scaleDistribution": {
+          "type": "linear"
+        },
+        "hideFrom": {
+          "tooltip": false,
+          "viz": false,
+          "legend": false
+        },
+        "thresholdsStyle": {
+          "mode": "off"
+        }
+      },
+      "color": {
+        "mode": "palette-classic"
+      },
+      "thresholds": {
+        "mode": "absolute",
+        "steps": [
+          {
+            "color": "green",
+            "value": null
+          },
+          {
+            "color": "red",
+            "value": 80
+          }
+        ]
+      },
+      "mappings": [],
+      "unit": "cps"
+    },
+    "overrides": []
+  },
+  "options": {
+    "tooltip": {
+      "mode": "single"
+    },
+    "legend": {
+      "displayMode": "list",
+      "placement": "bottom",
+      "calcs": []
+    }
+  },
+  "targets": [
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "iXCVTmnnk"
+      },
+      "exemplar": true,
+      "expr": "sum by (status) (rate(http_server_requests_seconds{uri=\"/authenticate\",app=\"app\", env=\"stage\", status=~\".*\",region=~\"$region\"}[1m]))",
+      "interval": "",
+      "legendFormat": "[{{status}}-region2]",
+      "refId": "A"
+    },
+    {
+      "datasource": {
+        "uid": "W9CVom77k"
+      },
+      "exemplar": true,
+      "expr": "sum by (status) (rate(http_server_requests_seconds{uri=\"/authenticate\",app=\"app\", env=\"stage\", status=~\".*\",region=~\"$region\"}[1m]))",
+      "hide": false,
+      "interval": "",
+      "legendFormat": "[{{status}}-region1]",
+      "refId": "B"
+    }
+  ]
+}
