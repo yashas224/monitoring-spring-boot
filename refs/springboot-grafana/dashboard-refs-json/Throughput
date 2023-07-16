@@ -1,3 +1,7 @@
 "expr": "sum by (uri)(rate(http_server_requests_seconds_count{application=\"app\",method=\"POST\",uri=\"testURI\"}[1m]))",
 
+x axis- time
+y axis- cps
+
+
 look at /actuaror/promethus to get the exact labels 
