@@ -12,3 +12,6 @@ https://betterprogramming.pub/how-to-monitor-a-spring-boot-app-with-prometheus-a
 
 // promethus docs
 https://prometheus.io/docs/introduction/overview/
+
+https://stackoverflow.com/questions/68394394/java-micrometer-what-to-do-with-metrics-of-type-bucket
+https://stackoverflow.com/questions/66282512/grafana-graphing-http-requests-per-minute-with-http-server-requests-seconds-coun
