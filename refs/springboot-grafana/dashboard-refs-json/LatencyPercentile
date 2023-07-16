@@ -1,5 +1,9 @@
-"expr": "histogram_quantile(0.95,sum(rate(http_server_requests_seconds_bucket{application=\"app\",exception=\"None\",method=\"POST\",uri=\"testURI\"}[1m])) by (le))",
+"expr": "histogram_quantile(0.95,sum(rate(http_server_requests_seconds_bucket{application=\"app\",exception=\"None\",method=\"POST\",uri=\"testURI\"}[1m])) by (le))"
+"legendFormat": "p95 "
 
-"expr": "histogram_quantile(0.99,sum(rate(http_server_requests_seconds_bucket{application=\"titan-reset-account\",exception=\"None\",method=\"POST\",uri=\"testURI\"}[1m])) by (le))",
+
+"expr": "histogram_quantile(0.99,sum(rate(http_server_requests_seconds_bucket{application=\"titan-reset-account\",exception=\"None\",method=\"POST\",uri=\"testURI\"}[1m])) by (le))"
+"legendFormat": "p99"
+
 
 https://prometheus.io/docs/prometheus/latest/querying/functions/#histogram_quantile
