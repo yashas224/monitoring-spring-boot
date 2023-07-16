@@ -6,4 +6,7 @@
 "legendFormat": "p99"
 
 
+x axis- time
+y axis - seconds
+
 https://prometheus.io/docs/prometheus/latest/querying/functions/#histogram_quantile
