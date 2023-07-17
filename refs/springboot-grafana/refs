@@ -8,10 +8,18 @@ https://tomgregory.com/monitoring-a-spring-boot-application-part-2-prometheus/
 https://docs.spring.io/spring-metrics/docs/current/public/prometheus
 https://autsoft.net/defining-custom-metrics-in-a-spring-boot-application-using-micrometer/
 https://betterprogramming.pub/how-to-monitor-a-spring-boot-app-with-prometheus-and-grafana-22e2338f97fc
+https://www.callicoder.com/spring-boot-actuator-metrics-monitoring-dashboard-prometheus-grafana/
+https://datamify.com/spring/spring-boot-monitoring-actuator-prometheus-grafana/
 
+
+
+// prebuild dashboards
+https://grafana.com/grafana/dashboards/6083-spring-boot-hikaricp-jdbc/
+https://grafana.com/grafana/dashboards/4701-jvm-micrometer/
 
 // promethus docs
 https://prometheus.io/docs/introduction/overview/
+https://docs.onap.org/projects/onap-policy-parent/en/latest/development/prometheus-metrics.html
 
 https://stackoverflow.com/questions/68394394/java-micrometer-what-to-do-with-metrics-of-type-bucket
 https://stackoverflow.com/questions/66282512/grafana-graphing-http-requests-per-minute-with-http-server-requests-seconds-coun
