@@ -28,3 +28,15 @@ https://stackoverflow.com/questions/66282512/grafana-graphing-http-requests-per-
 
 // adding links grafna
 https://grafana.com/docs/grafana/latest/dashboards/build-dashboards/manage-dashboard-links/
+
+
+// spring boot tracing
+https://docs.spring.io/spring-boot/reference/actuator/tracing.html
+https://docs.micrometer.io/tracing/reference/index.html
+https://docs.micrometer.io/tracing/reference/
+https://signoz.io/comparisons/opentelemetry-trace-id-vs-span-id/
+
+// use X{traceId} as Micrometer Tracing adds traceId in  MDC 
+https://help.sumologic.com/docs/apm/traces/get-started-transaction-tracing/opentelemetry-instrumentation/java/traceid-spanid-injection-into-logs-configuration/
+
+https://www.tutorialspoint.com/log4j/log4j_patternlayout.htm
