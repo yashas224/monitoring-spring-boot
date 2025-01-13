@@ -40,3 +40,26 @@ https://signoz.io/comparisons/opentelemetry-trace-id-vs-span-id/
 https://help.sumologic.com/docs/apm/traces/get-started-transaction-tracing/opentelemetry-instrumentation/java/traceid-spanid-injection-into-logs-configuration/
 
 https://www.tutorialspoint.com/log4j/log4j_patternlayout.htm
+
+
+// exemplers in prometheus metrics
+https://grafana.com/docs/grafana/latest/fundamentals/exemplars/
+https://docs.spring.io/spring-boot/reference/actuator/metrics.html#actuator.metrics.export.prometheus
+https://docs.micrometer.io/micrometer/reference/implementations/prometheus#_exemplars
+https://prometheus.github.io/client_java/config/config/
+
+// Autoconfiguration classes
+PrometheusExemplarsAutoConfiguration , PrometheusSimpleclientExemplarsAutoConfiguration
+// spring boot prometheus propeeties 
+management.prometheus.metrics
+https://docs.spring.io/spring-boot/appendix/application-properties/index.html
+
+// prometheus properties
+https://docs.micrometer.io/micrometer/reference/implementations/prometheus#_prometheus_client_properties
+
+// diable metrics
+https://stackoverflow.com/questions/77586575/disable-exemplars-support-in-spring-boot-3-2-to-avoid-prometheus-problem-with-sc
+
+// confif to change to disable exemplers in spring boot
+management.prometheus.metrics.export.properties.io.prometheus.exporter.exemplarsOnAllMetricTypes= false
+
