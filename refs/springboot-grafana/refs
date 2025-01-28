@@ -41,6 +41,11 @@ https://help.sumologic.com/docs/apm/traces/get-started-transaction-tracing/opent
 
 https://www.tutorialspoint.com/log4j/log4j_patternlayout.htm
 
+// open telemetry
+https://opentelemetry.io/docs/specs/otel/protocol/
+https://github.com/open-telemetry/opentelemetry-java-examples
+https://github.com/open-telemetry/opentelemetry-java-instrumentation/blob/main/docs/logger-mdc-instrumentation.md
+https://github.com/open-telemetry/opentelemetry-java-instrumentation/tree/main/instrumentation/log4j/log4j-appender-2.17/library
 
 // exemplers in prometheus metrics
 https://grafana.com/docs/grafana/latest/fundamentals/exemplars/
@@ -62,4 +67,6 @@ https://stackoverflow.com/questions/77586575/disable-exemplars-support-in-spring
 
 // confif to change to disable exemplers in spring boot
 management.prometheus.metrics.export.properties.io.prometheus.exporter.exemplarsOnAllMetricTypes= false
+
+
 
