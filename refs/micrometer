@@ -1,0 +1,7 @@
+https://docs.micrometer.io/micrometer/reference/overview.html
+https://docs.spring.io/spring-boot/reference/actuator/metrics.html#page-title
+
+The @Timed annotation, commonly found in frameworks like Micrometer for metrics collection, includes default tags to provide context about the timed operation. The default tags are typically:
+class: The fully qualified name of the class containing the timed method.
+method: The name of the timed method.
+exception: The class name of any exception thrown during the execution of the timed method. This tag is only present if an exception occurs.
